@@ -8,8 +8,7 @@
 
 name: Build Java app using Maven
 
-
-on: workflow_dispatch
+on:
   push:
     branches: [ "main" ]
   pull_request:
