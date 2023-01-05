@@ -14,11 +14,8 @@ on:
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
-    inputs:
-      Message:
-        description: What message do you want to send?
-        default: Eluwina Byku
-        required: false
+    branches:
+      - main
 env:
   HELLOWORLD: Eluwina
 
