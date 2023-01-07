@@ -35,7 +35,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Build with Maven
-      run: mvn -Dspring.mail.username=maltooza -Dspring.mail.password=ffgmbkzkoohigixp clean install
+      run: mvn -Dspring.mail.username=$MAIL_USERNAME -Dspring.mail.password=$MAIL_PASSWORD clean install
     - name: Print Variable
       run: echo "$HELLOWORLD"
 
