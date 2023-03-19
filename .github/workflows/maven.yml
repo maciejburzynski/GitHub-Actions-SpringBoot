@@ -22,7 +22,7 @@ env:
   MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
 
 jobs:
-  build:
+  run:
 
     runs-on: ubuntu-latest
 
