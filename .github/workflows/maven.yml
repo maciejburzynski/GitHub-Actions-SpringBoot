@@ -39,6 +39,7 @@ jobs:
   build:
     name: Code execution
     runs-on: ubuntu-latest
+    needs: test
     steps:
     - uses: actions/checkout@v3
     - name: Set up JDK 11
