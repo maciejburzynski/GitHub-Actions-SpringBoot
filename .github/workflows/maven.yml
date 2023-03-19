@@ -17,12 +17,13 @@ on:
     branches:
       - main
 env:
-  HELLOWORLD: Eluwina
+  HELLOWORLD: HelloMalto
   MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
   MAIL_USERNAME: ${{ secrets.MAIL_USERNAME }}
 
 jobs:
-  run and execute:
+  build:
+    name: Code execution
 
     runs-on: ubuntu-latest
 
