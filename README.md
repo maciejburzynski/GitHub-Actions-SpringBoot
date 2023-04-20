@@ -12,3 +12,6 @@ This repository is for self-development purposes. Below you can find technologie
 - How to inject variables in GitHub Actions
 - How to use secrets in GitHub Actions
 - How to send an e-mail using SpringBoot
+
+###### How to run:
+- mvn spring-boot:run -DSpring.profiles.active=prd
